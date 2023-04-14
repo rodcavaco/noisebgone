@@ -1,6 +1,0 @@
-public class TelaPrincipal implements login {
-
-public static void main(String[] args) {
-        new LoginApp();
-    }
-}
