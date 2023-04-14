@@ -1,0 +1,28 @@
+import javax.swing.*;
+
+public class NossasInformacoes {
+   public static void main(String[] args) {
+      
+      JFrame janela = new JFrame("Nossas Informações");
+
+      JPanel painel = new JPanel();
+
+      JLabel labelTime = new JLabel("Noise B-Gone");
+      JLabel labelTelefone = new JLabel("Nosso contato: (81) 99999-9999");
+      JLabel labelEmail = new JLabel("Nosso email: vitorpagaoqmedeve@gmail.com");
+
+      painel.add(labelTime);
+      painel.add(labelTelefone);
+      painel.add(labelEmail);
+
+      janela.add(painel);
+
+      janela.setSize(300, 150);
+
+      // Define a ação ao fechar a janela
+      janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+      // Exibe a janela
+      janela.setVisible(true);
+   }
+}

@@ -1,0 +1,46 @@
+public class CadastroDeSalas {
+
+    public class Sala {
+        private String codigo;
+        private int quantidadeAlunos;
+        private float tamanho; //será dado em m²
+     
+        public Sala(String codigo, int quantidadeAlunos, float tamanho) {
+            this.codigo = codigo;
+            this.quantidadeAlunos = quantidadeAlunos;
+            this.tamanho = tamanho;
+        }
+     
+        // getters e setters
+     
+        public int getCodigo() {
+            return codigo;
+        }
+     
+        public void setCodigo(int numero) {
+            this.codigo = codigo;
+        }
+     
+        public int getQuantidadeAlunos() {
+            return quantidadeAlunos;
+        }
+     
+        public void setQuantidadeAlunos(int quantidadeAlunos) {
+            this.quantidadeAlunos = quantidadeAlunos;
+        }
+    
+        public int getTamanho() {
+            return tamanho;
+        }
+     
+        public void setTamanho(float tamanho) {
+            this.Tamanho = tamanho;
+        }
+     
+        public void cadastrar() {
+            Sala salaExemplo = new Sala(39AB41, 50, 16);
+            salaExemplo.cadastrar();
+        }
+     }
+     
+}
